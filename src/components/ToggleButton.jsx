@@ -9,7 +9,7 @@ const ToggleButton = () => {
 
     return (
         <button onClick={handleToggle}>
-            {isToggled ? 'ON' : 'OFF'}
+            {isToggled ? 'ON ✅' : 'OFF ❌'}
         </button>
     );
 };
